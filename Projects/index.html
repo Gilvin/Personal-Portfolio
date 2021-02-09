@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gilvin's Portfolio</title>
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
+        <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+        <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+
+        <script src="https://kit.fontawesome.com/198b6feb1a.js" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="./styles.css" /> 
+         
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="../Projects/images/logo.png" alt="logo">
+            </div>
+            <button class="nav-toggle">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                     <li class="nav__items"><a href="#home" class="nav__link">Home</a></li>
+                     <li class="nav__items"><a href="#services" class="nav__link">Interest</a></li>
+                     <li class="nav__items"><a href="#about" class="nav__link">About Me</a></li>
+                     <li class="nav__items"><a href="#work" class="nav__link">Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+
+<!--Intro-->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hello, I am <strong>Gilvin Okunimah</strong> 
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Computer Science Student</p>
+            <img src="../Projects/images/profile_gilvin.png" alt="gilvin smiling" class="intro__img">   
+        </section>
+
+
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">My Interests</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Game Development</h3>
+                    <p>
+                        Ever since I was a kid, I have always been drawn to playing games. It has brought me through the toughest times of my life and given be the biggest smiles. 
+                        Gaming has connected me with so many amazing people that I still talk to today.
+                        I wanted to create stories that people can get not only get immersed in, but learn from.
+                        There's nothing like getting pulled into a game, and I've always felt using that pull to tell a story with a long-term thematic idea at it's core would make games better.
+                    </p>
+                </div> 
+                
+                <div class="service">
+                    <h3>Web Development</h3>
+                    <p>Front-end web development is all about creativity and creative problem-solving. 
+                       As a front-end web developer, you’ll have the skills to build customized websites to create the best possible user experience.
+                       Front-end web development is an exciting career because it’s always evolving and constantly changing. This means you’ll always have 
+                       the opportunity to interact with new tools and learn new skills, keeping you engaged in your career. 
+                       It’s a field that provides many opportunities for hands-on learning.
+                    </p>
+                </div> 
+                
+                <div class="service">
+                    <h3>Mobile Development</h3>
+                    <p>
+                       With technology becoming more mobile oriented it is important to learn how to develop in multiple different platforms, making you a versitile engineer.
+                       With the growing number of people accessing the Internet via smartphones and tablets, mobile app development 
+                       has the unique ability to access a large number of potential consumers.
+                       In essence, a mobile app allows you to have millions of new customers at your fingertips.
+                    </p>
+                </div> 
+            </div> 
+            
+            <a href="#work" class="btn">My Projects</a>
+        </section>
+
+        <section class="about-me" id="about">
+            
+            <h2 class="section__title section__title--about">Who Am I</h2>
+            <p class="section__subtitle section__subtitle--about">Com Sci Student @ Ryerson University</p>
+            <div class="about-me__body">
+                <p>I am currently a first year computer science student at Ryerson University in Toronto, Ontario. 
+                    I found a passion for computer science when I discovered how creative it allowed me 
+                    to be while also learning valuable life skills such as problem solving. 
+                    With computers and technology becoming the future, I want to be a part of building something that impacts peoples day to day life. </p>
+                <p>I enjoy being able to freely create and express myself in different ways. 
+                    Photography, graphic design, and video creations allow me to do so while also being engaged with technology and computers. 
+                    In my free time I enjoy going outside and using inspiration to take photos through my own creative personal lens. 
+                    Graphic design and video creations are also hobbies of mine as I can independently create using skills learned in computer science. 
+                    When I am not creating, I enjoy watching and playing sports to stay social and active.</p>                    
+            </div>
+            <img src="..//Projects/images/wegilvin.png" alt="" class="about-me__img">
+
+         
+        </section>
+<!--Projects-->
+<section id="work" class="projects">
+    <h2>My Projects</h2>
+    <div class="projects__grid">
+      <a href="https://kind-noyce-15320b.netlify.app/ " target="_blank" class="project__grid--link">
+        <img class="project__grid--img" src=".//images/Relief.png" alt="" />
+        <p class="project-title">uOttaHack 2021 Winner</p>
+      </a>
+      <a href="https://github.com/Gilvin/Announcement-Bot" target="_blank" class="project__grid--link">
+        <img class="project__grid--img" src=".//images/images.png" alt="" />
+        <p class="project-title">Discord</p>
+      </a>
+      <a href="" target="_blank" class="project__grid--link">
+        <img class="project__grid--img" src=".//images/portfolio.PNG" alt="" />
+        <p class="project-title">Personal Webpage</p>
+      </a>
+     
+    </div>
+  </section>
+
+        <footer class="footer">
+           <h2>Contact me</h2>
+            <a href="mailto:gilvinokunimah@gmail.com" class="footer__link">gilvinokunimah@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/gilvinchy">
+                        <i class="fab fa-instagram-square"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/gilvin-okunimah-557357204/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/Gilvin">
+                        <i class="fab fa-github-square"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        <script src="../Projects/gilvin.js"></script>
+    </body> 
+       
+</html>
